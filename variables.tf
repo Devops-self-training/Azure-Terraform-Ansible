@@ -9,8 +9,6 @@ variable "account_password" {
   sensitive = true
   type      = string
 }
-
-
 variable "location" {
   default = "southeastasia"
   type    = string
